@@ -1,6 +1,9 @@
 Block Titans ses kredileri (v3.1)
 
-MUZIK: ACE-Step 1.5 ile uretildi (MIT lisansli model; kendi uretimimiz).
+MUZIK
+music_battle_synth: "Midnight Drive" - congusbongus | CC0 1.0 (public domain) | https://opengameart.org/content/midnight-drive - olcu hizali donguye kesildi
+music_battle_chip: "16-bit - Battle Theme I" (loop part) - HydroGene | CC0 1.0 (public domain) | https://opengameart.org/content/16-bit-battle-theme-i
+music_menu: ACE-Step 1.5 ile uretildi (MIT lisansli model; kendi uretimimiz) - gecici, degisecek
 
 hit: Kenney - Impact Sounds: impactSoft_medium_000.ogg, impactSoft_medium_001.ogg, impactSoft_medium_002.ogg, impactSoft_medium_003.ogg (5 kHz low-pass + -9 dBFS + kÄ±saltÄ±ldÄ±) | CC0 1.0 | https://kenney.nl/assets/impact-sounds
 stone: Kenney - Impact Sounds: impactMining_001.ogg, impactMining_003.ogg, impactMining_004.ogg (5 kHz low-pass + -9 dBFS + kÄ±saltÄ±ldÄ±) | CC0 1.0 | https://kenney.nl/assets/impact-sounds
