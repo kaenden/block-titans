@@ -1,0 +1,28 @@
+BLOCK TITANS — AUDIO CREDITS
+
+MUSIC
+  music_battle  "Midnight Drive" by congusbongus — CC0 1.0 (public domain)
+                https://opengameart.org/content/midnight-drive
+                (trimmed to a bar-aligned loop)
+  music_menu    "Fluid" by ItsWatR (WatR) — Pixabay Content License (no attribution required)
+                https://pixabay.com/music/beats-watr-fluid-10149/
+                (0:32-2:18 trimmed to a loop)
+
+SOUND EFFECTS
+  hit, stone    Kenney — Impact Sounds (impactMining_000/001/003/004) — CC0 1.0
+                https://kenney.nl/assets/impact-sounds
+                (0.18 s, high-passed at 180 Hz)
+  forge         Kenney — Impact Sounds (impactBell_heavy_002) — CC0 1.0
+  pick, click   Kenney — Interface Sounds (select_003, select_001) — CC0 1.0
+                https://kenney.nl/assets/interface-sounds
+  levelup       Kenney — Music Jingles (jingles_PIZZI02) — CC0 1.0
+  victory       Kenney — Music Jingles (jingles_PIZZI15) — CC0 1.0
+  defeat        Kenney — Music Jingles (jingles_PIZZI01) — CC0 1.0
+                https://kenney.nl/assets/music-jingles
+  boom          rubberduck — 100 CC0 SFX (explosion) — CC0 1.0
+  elite, boss   rubberduck — 100 CC0 SFX (gong_02, gong_01) — CC0 1.0
+                https://opengameart.org/content/100-cc0-sfx
+  coin          Original synthesis for this game — no licence restrictions
+
+All third-party audio above is public domain (CC0 1.0) or licensed for commercial use
+without attribution. Silence trimmed and levels normalised to -3 dBFS.
