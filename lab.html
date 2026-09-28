@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>Block Titans — Arena Lab</title>
+    <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%; height: 100vh; height: 100dvh; overflow: hidden; touch-action: none;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
+      position: fixed; inset: 0; background: #0A0E22;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    #game-container { width: 100%; height: 100%; }
+    canvas { display: block; }
+    #knobs {
+      position: fixed; right: 8px; top: 8px; z-index: 10; width: 250px; max-height: 84vh; overflow-y: auto;
+      background: rgba(20, 12, 28, 0.93); border: 2px solid #4A3358; border-radius: 12px;
+      padding: 10px 10px 12px; color: #FFF3E0; font-size: 12px; display: none;
+    }
+    #knobs.acik { display: block; }
+    #knobs h4 { font-size: 12px; letter-spacing: .04em; color: #FFD27A; margin: 8px 0 4px; }
+    #knobs h4:first-child { margin-top: 0; }
+    .k { display: flex; align-items: center; gap: 6px; margin: 5px 0; }
+    .k label { flex: 1 1 auto; opacity: .85; }
+    .k input[type=range] { flex: 0 0 96px; }
+    .k b { flex: 0 0 42px; text-align: right; font-variant-numeric: tabular-nums; color: #FFD27A; }
+    #knobBtn {
+      position: fixed; right: 8px; top: 8px; z-index: 11; width: 40px; height: 40px; border-radius: 10px;
+      background: rgba(20, 12, 28, 0.93); border: 2px solid #4A3358; color: #FFD27A;
+      font-size: 17px; line-height: 1; cursor: pointer;
+    }
+    #knobs .row { display: flex; gap: 6px; margin-top: 10px; }
+    #knobs button {
+      flex: 1; padding: 7px 4px; border-radius: 8px; border: 2px solid #4A3358;
+      background: #2A1B38; color: #FFF3E0; font-size: 12px; cursor: pointer;
+    }
+    #knobs button.pri { background: #3E7D53; border-color: #2E6B45; }
+  </style>
+  <script type="module" crossorigin src="./assets/lab-B8OMzjfj.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/phaser-DdCsgmnN.js">
+  <link rel="modulepreload" crossorigin href="./assets/ScreenFit-CC_V4b1g.js">
+  <link rel="stylesheet" crossorigin href="./assets/lab-DhEklDMM.css">
+</head>
+<body>
+  <div id="game-container"></div>
+  <button id="knobBtn" title="ayarlar">⚙</button>
+  <div id="knobs"></div>
+</body>
+</html>
